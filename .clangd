@@ -1,0 +1,13 @@
+CompileFlags:
+  Remove:
+    - -G*
+    - -m*
+    - -fno-toplevel-reorder
+  Add:
+    - -D_EE
+    - -isystemD:/_PLATFORMS/PLAYSTATION/PS2DEV/toolchain/ee/bin/../lib/gcc/mips64r5900el-ps2-elf/15.3.1/../../../../mips64r5900el-ps2-elf/include/c++/15.3.1
+    - -isystemD:/_PLATFORMS/PLAYSTATION/PS2DEV/toolchain/ee/bin/../lib/gcc/mips64r5900el-ps2-elf/15.3.1/../../../../mips64r5900el-ps2-elf/include/c++/15.3.1/mips64r5900el-ps2-elf
+    - -isystemD:/_PLATFORMS/PLAYSTATION/PS2DEV/toolchain/ee/bin/../lib/gcc/mips64r5900el-ps2-elf/15.3.1/../../../../mips64r5900el-ps2-elf/include/c++/15.3.1/backward
+    - -isystemD:/_PLATFORMS/PLAYSTATION/PS2DEV/toolchain/ee/bin/../lib/gcc/mips64r5900el-ps2-elf/15.3.1/include
+    - -isystemD:/_PLATFORMS/PLAYSTATION/PS2DEV/toolchain/ee/bin/../lib/gcc/mips64r5900el-ps2-elf/15.3.1/include-fixed
+    - -isystemD:/_PLATFORMS/PLAYSTATION/PS2DEV/toolchain/ee/bin/../lib/gcc/mips64r5900el-ps2-elf/15.3.1/../../../../mips64r5900el-ps2-elf/include

@@ -1,0 +1,14 @@
+project: romfs
+
+targets:
+  - name: romfs
+    type: ee_lib
+    sources:
+      - src/romfs.c
+      - src/romfs_io.c
+    include_dirs:
+      - include
+      - src
+    cflags:
+      - -DSYS_LITTLE_ENDIAN
+      - -DSYS_NEED_ALIGNMENT
